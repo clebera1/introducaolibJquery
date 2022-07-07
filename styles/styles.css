@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    padding-top: 60px;
+    height: 1vh;
+    background-color: #0f327c;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-top: -45px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9d35b;
+}
+
+.input-btn{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: -45px;
+}
+
+.btn{
+    width: 130px;
+    height: 33px;
+    padding: 6px;
+    background-color: #e9d35b;
+    border-style:solid;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+
+.cep{
+    margin-right: -65px;
+    padding: 5px;
+    border-color: #0f327c;
+    border-style:solid;
+    border-radius: 5px;
+}
+
+.cep:hover{
+    border-color: #e9d35b;
+    background-color: #e9d35b;
+}
+
+.navegacao{
+    color: #e9d35b;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 1px;
+    margin-top: -40px;
+    font-size: large;
+}
+
+li{
+    margin-right: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+}
+
+main{
+    height: 900px;
+    background: linear-gradient(rgba(19, 16, 46, 0.7), rgba(0,0,0,0.70)), url(../assets/imgs/carteiro.jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #cccaca;
+}
+
+.row{
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.table{
+    padding: 10px;
+    color: #cccaca;
+}
+
+td{
+    padding: 10px;
+}
